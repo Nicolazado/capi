@@ -1,0 +1,219 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 de set. de 2024, 18:35:31
+    Author     : Mommys
+*/
+
+* {
+    margin: 0px;
+    font-family: "Nerko One", cursive;
+}
+#s {
+    margin-bottom: 20px;
+}
+header {
+    margin: 0px;
+    display: flex;
+    width: 100%px;
+    justify-content: space-between;
+    background-color: #FFDBB5;
+}
+
+div>img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin: 15px;
+}
+.saudacao {
+    flex: 70%;
+    align-self: center
+}
+
+div > form > button.cad {
+    height: 35px;
+    width:100%;
+    color: #FFDBB5;
+    background-color: #6C4E31;
+    border-radius: 10px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.cad:hover {
+    background-color: antiquewhite;
+    color: #6C4E31;
+
+}
+.entrar {
+    height: 35px;
+    width: 100%;
+    color: #FFDBB5;
+    background-color: #6C4E31;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0;
+}
+
+.entrar:hover {
+    background-color: antiquewhite;
+    color: #6C4E31;
+}
+
+label {
+    color: #6C4E31;
+}
+
+nav {
+    color: antiquewhite;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    gap: 300px;
+    background-color: #6C4E31;
+}
+
+
+
+body {
+    margin: 0;
+    color: #FFDBB5;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6C4E31;
+}
+
+.salve {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.video {
+    margin: 10px;
+    flex: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 50px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    color: #FFDBB5;
+    background-color: #6C4E31;
+}
+nav > a {
+
+    color: #FFDBB5;
+}
+nav > a:hover {
+
+    background-color:  #6C4E31;
+    color:#A67B5B;
+    text-decoration: underline;
+}
+hr {
+    margin: 0;
+    height: 5px;
+    background-color: #FFDBB5;
+}
+
+.texto {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+
+main > div > #butt {
+    background-color: #FFDBB5;
+    color: #6C4E31;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 5px;
+    width: 50%;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+
+}
+main > div > #butt:hover {
+
+    background-color: #A67B5B;
+    color: #FFDBB5;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .login form {
+        align-items: center;
+    }
+
+    header .login input[type="text"],
+    header .login input[type="password"] {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+    main {
+        flex-direction: column;
+    }
+
+    main iframe {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    main h1 {
+        font-size: 1.5em;
+    }
+
+    header .logo img {
+        width: 100px;
+    }
+
+    header .login input[type="text"],
+    header .login input[type="password"] {
+        font-size: 0.9em;
+    }
+
+    footer {
+        padding: 5px;
+        font-size: 0.9em;
+    }
+}
